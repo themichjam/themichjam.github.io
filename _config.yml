@@ -1,26 +1,26 @@
 # Site settings
-name: Michelle K Jamieson
+name: Michelle Jamieson
 title: Michelle K Jamieson | Research Psychologist
 description: Design-minded front-end software engineer focused on building beautiful interfaces and experiences
 url: https://themichjam.github.io/
 baseurl: ''
-email: rmkjamiesong@gmail.com
-cover: https://bchiang7.github.io/img/og.png
-logo: https://bchiang7.github.io/img/emojis/technologist.png
-resume: https://bchiang7.github.io/resume.pdf
+email: rmkjamieson@gmail.com
+cover: https://themichjam.github.io/img/og.png
+logo: https://themichjam.github.io/img/emojis/technologist.png
+resume: https://themichjam.github.io/resume.pdf
 social:
   - title: email
-    url: mailto:rmkjamieson@gmail.com
+    url: mailto:rmkjamiesong@gmail.com
   - title: twitter
     url: https://twitter.com/themichjam
   - title: instagram
-    url: https://instagram.com/themichajamm
-  - title: codepen
-    url: http://codepen.io/bchiang7
+    url: https://instagram.com/themichjamm
   - title: github
     url: https://github.com/themichjam
   - title: linkedin
     url: https://www.linkedin.com/in/michellekjamieson
+  - title: YouTube
+    url: https://www.youtube.com/channel/UCA9g_B5hzqVul6LHzAL4NYA/featured
 
 # Build settings
 markdown: kramdown

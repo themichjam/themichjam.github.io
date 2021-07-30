@@ -5,9 +5,9 @@ description: Design-minded front-end software engineer focused on building beaut
 url: https://themichjam.github.io/
 baseurl: ''
 email: rmkjamieson@gmail.com
-cover: https://bchiang7.github.io/img/og.png
-logo: https://bchiang7.github.io/img/emojis/technologist.png
-resume: https://bchiang7.github.io/resume.pdf
+cover: https://themichjam.github.io/img/og.png
+logo: https://themichjam.github.io/img/emojis/technologist.png
+resume: https://themichjam.github.io/resume.pdf
 social:
   - title: email
     url: mailto:rmkjamiesong@gmail.com
@@ -15,12 +15,12 @@ social:
     url: https://twitter.com/themichjam
   - title: instagram
     url: https://instagram.com/themichjamm
-  - title: codepen
-    url: http://codepen.io/bchiang7
   - title: github
     url: https://github.com/themichjam
   - title: linkedin
     url: https://www.linkedin.com/in/michellekjamieson
+  - title: YouTube
+    url: https://www.youtube.com/channel/UCA9g_B5hzqVul6LHzAL4NYA/featured
 
 # Build settings
 markdown: kramdown
