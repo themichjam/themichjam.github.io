@@ -6,9 +6,11 @@ url: https://themichjam.github.io/
 baseurl: ''
 email: rmkjamieson@gmail.com
 cover: https://themichjam.github.io/img/og.png
-logo: https://themichjam.github.io/img/emojis/technologist.png
+logo:
 resume: https://themichjam.github.io/resume.pdf
 social:
+  - title: tutorial
+    url: 
   - title: email
     url: mailto:rmkjamiesong@gmail.com
   - title: twitter
