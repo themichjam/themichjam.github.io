@@ -17,8 +17,9 @@
   </h3>
 
   <h4 class="media_links">
-    {% for item in project.used %}
-    <span class="project__used__item">{{item.thing}}</span>
+    {% for project in site.data.social_links %}
+        {% for item in project.used %}
+        <span class="project__used__item">{{item.thing}}</span>
     {% endfor %}
     </h4>
 </header>
