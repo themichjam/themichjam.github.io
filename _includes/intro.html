@@ -17,8 +17,8 @@
   </h3>
 
   <h4 class="media_links">
-    <span>
-      <a href="https://github.com/themichjam" target="_blank" class="highlight-link">GitHub</a>
-    </span>
+    {% for item in project.used %}
+    <span class="project__used__item">{{item.thing}}</span>
+    {% endfor %}
     </h4>
 </header>
