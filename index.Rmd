@@ -1,0 +1,23 @@
+---
+title: "Michelle Jamieson"
+image: "mich2023.jpg"
+links:
+  - label: LinkedIn
+    url: "www.linkedin.com/in/michellekjamieson"
+  - label: Twitter
+    url: "https://twitter.com/themichjam"
+  - label: GitHub
+    url: "https://github.com/themichjam"
+  - label: Email
+    url: "mailto:hellomichjam@gmail.com"
+  - label: OSF
+    url: "https://osf.io/gde95/"
+  - label: ORCID
+    url: "https://orcid.org/0000-0003-2145-8988"
+output:
+  postcards::jolla
+---
+ 
+I am a classically trained data scientist living in the San Francisco Bay Area. 
+Currently I work on the Oculus team at Facebook. I love talking about baseball, 
+true crime podcasts, and causal inference.
