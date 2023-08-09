@@ -10,7 +10,7 @@ links:
     url: "www.linkedin.com/in/michellekjamieson"
   - label: Twitter
     url: "https://twitter.com/themichjam"
-  - label: ORCID
+  - label: ORCID 
     url: "https://orcid.org/0000-0003-2145-8988"
 output:
   postcards::jolla
