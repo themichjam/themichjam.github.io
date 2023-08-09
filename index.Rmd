@@ -1,6 +1,6 @@
 ---
 title: "Michelle Jamieson"
-image: "mich2023sq.jpg"
+image: "mich20231.jpg"
 links:
   - label: Email
     url: "mailto:hellomichjam@gmail.com"
