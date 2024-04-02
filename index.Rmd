@@ -18,4 +18,4 @@ favicon: favicon.ico
 ---
 
 
-I'm Michelle Jamieson, a Researcher & Freelance Creative based in Glasgow, Scotland.
+I'm Michelle Jamieson, a Data Scientist and Researcher based in Glasgow, Scotland.
