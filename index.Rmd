@@ -7,7 +7,7 @@ links:
   - label: GitHub
     url: "https://github.com/themichjam"
   - label: LinkedIn
-    url: "www.linkedin.com/in/michellekjamieson"
+    url: "https:://www.linkedin.com/in/michellekjamieson"
   - label: Twitter
     url: "https://twitter.com/themichjam"
   - label: ORCID
