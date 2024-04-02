@@ -1,6 +1,6 @@
 ---
 title: "Hi!"
-image: "mich20231.jpg"
+image: "mich2024.jpg"
 links:
   - label: Email
     url: "mailto:hellomichjam@gmail.com"
