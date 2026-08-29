@@ -204,3 +204,15 @@ article li {
     gap: 0.75rem;
   }
 }
+
+/* Short laptop screens */
+@media (min-width: 481px) and (max-height: 850px) {
+  body {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  nav {
+    margin-top: 1rem;
+  }
+}
