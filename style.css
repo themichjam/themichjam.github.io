@@ -208,11 +208,20 @@ article li {
 /* Short laptop screens */
 @media (min-width: 481px) and (max-height: 850px) {
   body {
-    padding-top: 0.75rem;
-    padding-bottom: 0.5rem;
+    max-width: 720px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.25rem;
+  }
+
+  main {
+    margin-top: 0.75rem;
+  }
+
+  p {
+    margin-bottom: 0.875rem;
   }
 
   nav {
-    margin-top: 0.75rem;
+    margin-top: 0.5rem;
   }
 }
