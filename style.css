@@ -8,8 +8,8 @@ body {
   margin: 0 auto;
   padding: 2rem 1rem;
   line-height: 1.6;
-  color: #2A201D;
-  background-color: #F8F0E5;
+  color: #171717;
+  background-color: #FAFAF7;
 }
 
 main {
@@ -45,35 +45,50 @@ p {
 }
 
 a {
-  color: #8E3045;
-  text-decoration: none;
+  color: #003F8C;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+a:visited {
+  color: #551A8B;
 }
 
 a:hover {
-  opacity: 0.7;
+  opacity: 0.8;
+}
+
+a:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
 }
 
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #25191B;
-    color: #F8EFE7;
+    background-color: #000000;
+    color: #FFFFFF;
   }
 
   a {
-    color: #D98296;
+    color: #8AB4F8;
+  }
+
+  a:visited {
+    color: #D8A8FF;
   }
 
   article pre {
-    background: #3A272B;
+    background: #1E1E1E;
   }
 
   article p code {
-    background: #3A272B;
+    background: #1E1E1E;
   }
 
   .post-date, .back, article .meta {
-    color: #C8B4B8;
+    color: #D0D0D0;
   }
 }
 
@@ -87,7 +102,7 @@ nav {
 nav a {
   text-decoration: none;
   padding: 0.25rem 0;
-  border-bottom: none;
+  border-bottom: 1px solid currentColor;
 }
 
 /* Blog listing */
@@ -102,15 +117,15 @@ nav a {
 }
 
 .post-list a {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .post-list a:hover {
-  text-decoration: none;
+  text-decoration-thickness: 2px;
 }
 
 .post-date {
-  color: #7A6663;
+  color: #555555;
   font-size: 0.9rem;
   margin-left: 0.5rem;
 }
@@ -122,11 +137,11 @@ article {
 
 article h1 {
   margin-bottom: 0.5rem;
-  color: #8E3045;
+  color: #003F8C;
 }
 
 article .meta {
-  color: #7A6663;
+  color: #555555;
   font-size: 0.9rem;
   margin-bottom: 2rem;
 }
@@ -143,19 +158,19 @@ article figure {
 
 article figcaption {
   font-size: 0.85rem;
-  color: #7A6663;
+  color: #555555;
   margin-top: 0.5rem;
 }
 
 article blockquote {
-  border-left: 3px solid #DFC9BF;
+  border-left: 3px solid #8A8A8A;
   margin: 1.5rem 0;
   padding-left: 1rem;
-  color: #5C4A47;
+  color: #333333;
 }
 
 article pre {
-  background: #F1E4D8;
+  background: #EEEEEA;
   padding: 1rem;
   overflow-x: auto;
   border-radius: 4px;
@@ -168,7 +183,7 @@ article code {
 }
 
 article p code {
-  background: #F1E4D8;
+  background: #EEEEEA;
   padding: 0.15rem 0.3rem;
   border-radius: 3px;
 }
@@ -185,12 +200,13 @@ article li {
 .back {
   display: inline-block;
   margin-bottom: 1.5rem;
-  text-decoration: none;
-  color: #7A6663;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  color: #003F8C;
 }
 
 .back:hover {
-  color: #2A201D;
+  color: #171717;
 }
 
 /* Responsive */
