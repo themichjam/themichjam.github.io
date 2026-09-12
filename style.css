@@ -8,8 +8,8 @@ body {
   margin: 0 auto;
   padding: 2rem 1rem;
   line-height: 1.6;
-  color: #171717;
-  background-color: #FAFAF7;
+  color: #1B1B1B;
+  background-color: #FFFDF7;
 }
 
 main {
@@ -45,50 +45,66 @@ p {
 }
 
 a {
-  color: #003F8C;
+  color: #8C2D04;
   text-decoration: underline;
   text-underline-offset: 3px;
   text-decoration-thickness: 1px;
 }
 
 a:visited {
-  color: #551A8B;
+  color: #5E3A87;
 }
 
 a:hover {
-  opacity: 0.8;
+  text-decoration-thickness: 2px;
 }
 
 a:focus-visible {
-  outline: 3px solid currentColor;
+  outline: 3px solid #E69F00;
   outline-offset: 3px;
 }
 
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #000000;
-    color: #FFFFFF;
+    background-color: #121212;
+    color: #FAFAF5;
   }
 
   a {
-    color: #8AB4F8;
+    color: #FFB000;
   }
 
   a:visited {
-    color: #D8A8FF;
+    color: #D7B5FF;
   }
 
-  article pre {
-    background: #1E1E1E;
+  a:focus-visible {
+    outline-color: #56B4E9;
   }
 
+  article pre,
   article p code {
-    background: #1E1E1E;
+    background: #242424;
   }
 
-  .post-date, .back, article .meta {
-    color: #D0D0D0;
+  .post-date,
+  .back,
+  article .meta {
+    color: #D0D0CC;
+  }
+
+  article h1 {
+    color: #FFB000;
+  }
+
+  article blockquote {
+    border-left-color: #E69F00;
+    color: #E2E2DE;
+  }
+
+  .back:hover {
+    color: #FAFAF5;
   }
 }
 
@@ -125,7 +141,7 @@ nav a {
 }
 
 .post-date {
-  color: #555555;
+  color: #55524D;
   font-size: 0.9rem;
   margin-left: 0.5rem;
 }
@@ -137,11 +153,11 @@ article {
 
 article h1 {
   margin-bottom: 0.5rem;
-  color: #003F8C;
+  color: #8C2D04;
 }
 
 article .meta {
-  color: #555555;
+  color: #55524D;
   font-size: 0.9rem;
   margin-bottom: 2rem;
 }
@@ -158,19 +174,19 @@ article figure {
 
 article figcaption {
   font-size: 0.85rem;
-  color: #555555;
+  color: #55524D;
   margin-top: 0.5rem;
 }
 
 article blockquote {
-  border-left: 3px solid #8A8A8A;
+  border-left: 3px solid #D9A441;
   margin: 1.5rem 0;
   padding-left: 1rem;
-  color: #333333;
+  color: #3E3A35;
 }
 
 article pre {
-  background: #EEEEEA;
+  background: #F2EEE3;
   padding: 1rem;
   overflow-x: auto;
   border-radius: 4px;
@@ -183,12 +199,13 @@ article code {
 }
 
 article p code {
-  background: #EEEEEA;
+  background: #F2EEE3;
   padding: 0.15rem 0.3rem;
   border-radius: 3px;
 }
 
-article ul, article ol {
+article ul,
+article ol {
   padding-left: 1.5rem;
 }
 
@@ -202,11 +219,11 @@ article li {
   margin-bottom: 1.5rem;
   text-decoration: underline;
   text-underline-offset: 3px;
-  color: #003F8C;
+  color: #8C2D04;
 }
 
 .back:hover {
-  color: #171717;
+  color: #1B1B1B;
 }
 
 /* Responsive */
