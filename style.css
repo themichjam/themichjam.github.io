@@ -8,8 +8,8 @@ body {
   margin: 0 auto;
   padding: 2rem 1rem;
   line-height: 1.6;
-  color: #FAFAF5;
-  background-color: #121212;
+  color: #F3F0E8;
+  background-color: #111111;
 }
 
 main {
@@ -44,23 +44,18 @@ p {
   margin-bottom: 1rem;
 }
 
-a {
-  color: #FFB000;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  text-decoration-thickness: 1px;
-}
-
+a,
 a:visited {
-  color: #D7B5FF;
+  color: #D9A441;
+  text-decoration: none;
 }
 
 a:hover {
-  text-decoration-thickness: 2px;
+  color: #F0C66A;
 }
 
 a:focus-visible {
-  outline: 3px solid #56B4E9;
+  outline: 2px solid #F0C66A;
   outline-offset: 3px;
 }
 
@@ -74,7 +69,7 @@ nav {
 nav a {
   text-decoration: none;
   padding: 0.25rem 0;
-  border-bottom: 1px solid currentColor;
+  border-bottom: none;
 }
 
 /* Blog listing */
@@ -88,16 +83,13 @@ nav a {
   margin-bottom: 0.75rem;
 }
 
-.post-list a {
-  text-decoration: underline;
-}
-
+.post-list a,
 .post-list a:hover {
-  text-decoration-thickness: 2px;
+  text-decoration: none;
 }
 
 .post-date {
-  color: #D0D0CC;
+  color: #B8B3AA;
   font-size: 0.9rem;
   margin-left: 0.5rem;
 }
@@ -109,11 +101,11 @@ article {
 
 article h1 {
   margin-bottom: 0.5rem;
-  color: #FFB000;
+  color: #D9A441;
 }
 
 article .meta {
-  color: #D0D0CC;
+  color: #B8B3AA;
   font-size: 0.9rem;
   margin-bottom: 2rem;
 }
@@ -130,19 +122,19 @@ article figure {
 
 article figcaption {
   font-size: 0.85rem;
-  color: #D0D0CC;
+  color: #B8B3AA;
   margin-top: 0.5rem;
 }
 
 article blockquote {
-  border-left: 3px solid #E69F00;
+  border-left: 3px solid #D9A441;
   margin: 1.5rem 0;
   padding-left: 1rem;
-  color: #E2E2DE;
+  color: #D8D4CB;
 }
 
 article pre {
-  background: #242424;
+  background: #1C1C1C;
   padding: 1rem;
   overflow-x: auto;
   border-radius: 4px;
@@ -155,7 +147,7 @@ article code {
 }
 
 article p code {
-  background: #242424;
+  background: #1C1C1C;
   padding: 0.15rem 0.3rem;
   border-radius: 3px;
 }
@@ -170,16 +162,16 @@ article li {
 }
 
 /* Back link */
-.back {
+.back,
+.back:visited {
   display: inline-block;
   margin-bottom: 1.5rem;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  color: #FFB000;
+  text-decoration: none;
+  color: #D9A441;
 }
 
 .back:hover {
-  color: #FAFAF5;
+  color: #F0C66A;
 }
 
 /* Responsive */
