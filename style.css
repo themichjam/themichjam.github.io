@@ -8,8 +8,8 @@ body {
   margin: 0 auto;
   padding: 2rem 1rem;
   line-height: 1.6;
-  color: #F3F0E8;
-  background-color: #111111;
+  color: #333;
+  background-color: #fafafa;
 }
 
 main {
@@ -46,16 +46,16 @@ p {
 
 a,
 a:visited {
-  color: #D9A441;
+  color: green;
   text-decoration: none;
 }
 
 a:hover {
-  color: #F0C66A;
+  opacity: 0.7;
 }
 
 a:focus-visible {
-  outline: 2px solid #F0C66A;
+  outline: 2px solid currentColor;
   outline-offset: 3px;
 }
 
@@ -89,7 +89,7 @@ nav a {
 }
 
 .post-date {
-  color: #B8B3AA;
+  color: #666;
   font-size: 0.9rem;
   margin-left: 0.5rem;
 }
@@ -101,11 +101,11 @@ article {
 
 article h1 {
   margin-bottom: 0.5rem;
-  color: #D9A441;
+  color: green;
 }
 
 article .meta {
-  color: #B8B3AA;
+  color: #666;
   font-size: 0.9rem;
   margin-bottom: 2rem;
 }
@@ -122,19 +122,19 @@ article figure {
 
 article figcaption {
   font-size: 0.85rem;
-  color: #B8B3AA;
+  color: #666;
   margin-top: 0.5rem;
 }
 
 article blockquote {
-  border-left: 3px solid #D9A441;
+  border-left: 3px solid #ddd;
   margin: 1.5rem 0;
   padding-left: 1rem;
-  color: #D8D4CB;
+  color: #555;
 }
 
 article pre {
-  background: #1C1C1C;
+  background: #f5f5f5;
   padding: 1rem;
   overflow-x: auto;
   border-radius: 4px;
@@ -147,7 +147,7 @@ article code {
 }
 
 article p code {
-  background: #1C1C1C;
+  background: #f5f5f5;
   padding: 0.15rem 0.3rem;
   border-radius: 3px;
 }
@@ -167,11 +167,45 @@ article li {
   display: inline-block;
   margin-bottom: 1.5rem;
   text-decoration: none;
-  color: #D9A441;
+  color: #666;
 }
 
 .back:hover {
-  color: #F0C66A;
+  color: #333;
+}
+
+/* Dark mode — matches Akbir's palette */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #333;
+    color: #fff;
+  }
+
+  a,
+  a:visited {
+    color: #6fffa3;
+  }
+
+  article pre,
+  article p code {
+    background: #555;
+  }
+
+  .post-date,
+  .back,
+  .back:visited,
+  article .meta,
+  article figcaption {
+    color: #aaa;
+  }
+
+  article blockquote {
+    color: #ddd;
+  }
+
+  .back:hover {
+    color: #fff;
+  }
 }
 
 /* Responsive */
